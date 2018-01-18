@@ -1,0 +1,4 @@
+from operator import add
+sum=0
+mylist=[sum+i for i in range(1000) if i%3==0 or i%5==0]
+reduce(add,mylist)
